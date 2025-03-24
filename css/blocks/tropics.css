@@ -1,0 +1,84 @@
+.tropics {
+    margin-bottom: 120px;
+}
+
+.tropics__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tropics__description {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 550px;
+    margin-bottom: 61px;
+}
+
+.tropics__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tropics__item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 54px;
+    width: 100%;
+    height: 100%;
+}
+
+.tropics__item::before {
+    content: "";
+    position: absolute;
+    background: var(--gradient-primary);
+    opacity: 0.05;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 21px;
+    z-index: -1;
+}
+
+.tropics__block {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.tropics__wrapper-img {
+    background: var(--white);
+    display: flex;
+    border-radius: 100%;
+    padding: 15.5px 12px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+}
+
+.tropics__item-title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.tropics__item-text {
+    line-height: 150%;
+    color: var(--color-secondary);
+    max-width: 500px;
+}
+
+.tropics__button {
+    padding: 23px 38px;
+}
+
+.tropics__button .part-left::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background: white;
+}

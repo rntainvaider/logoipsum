@@ -1,0 +1,30 @@
+body {
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.button {
+    border-radius: 33px;
+    background: var(--gradient-primary);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.section-title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 122%;
+}
+
+.section-description {
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--color-secondary);
+}

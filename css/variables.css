@@ -1,0 +1,13 @@
+:root {
+    --white: #fff;
+
+    --color-secondary: #4f596a;
+    --brand-purple: #9f07ff;
+    --border-gray: #e7eaeb;
+
+    --gradient-primary: linear-gradient(44deg, #cd10ff 0%, #9f06ff 100%);
+    --gradient-light-orange: linear-gradient(90deg, #ffd7a9 0%, #ffae70 100%);
+
+    --font-family: "Mulish", sans-serif;
+    --second-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,35 @@
+.stats {
+    margin-bottom: 150px;
+}
+
+.stats-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+    padding: 20px;
+}
+
+.stats__group {
+    border: 1px solid var(--border-gray);
+    border-radius: 21px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.stats__number {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+
+.stats__description {
+    color: var(--color-secondary);
+}
+
+.stats__lectures {
+    border-left: 1px solid var(--border-gray);
+    border-right: 1px solid var(--border-gray);
+}

@@ -1,0 +1,48 @@
+.present {
+    margin-bottom: 120px;
+}
+
+.present__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.present__group-text {
+    max-width: 530px;
+}
+
+.present__title {
+    margin-bottom: 20px;
+}
+
+.present__block {
+    position: relative;
+}
+
+.present__image {
+    background: var(--gradient-primary);
+    border-radius: 100%;
+}
+
+.present__oval-top {
+    position: absolute;
+    background: linear-gradient(36deg, #ffd7a9 0%, #ffae70 100%);
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.present__oval-bottom {
+    position: absolute;
+    background: linear-gradient(36deg, #ffd7a9 0%, #ffae70 100%);
+    width: 132px;
+    height: 132px;
+    border-radius: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
