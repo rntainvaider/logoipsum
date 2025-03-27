@@ -1,0 +1,48 @@
+|-- assets
+    |-- fonts
+        |-- Montserrat-Bold.woff
+        |-- Montserrat-Bold.woff2
+        |-- Mulish-Bold.woff
+        |-- Mulish-Bold.woff2
+        |-- Mulish-Regular.woff
+        |-- Mulish-Regular.woff2
+        |-- Mulish-SemiBold.woff
+        |-- Mulish-SemiBold.woff2
+    |-- icons
+        |-- arrow.svg
+        |-- arrow_pink.svg
+        |-- Logo.svg
+        |-- play.svg
+    |-- images
+        |-- hero
+            |-- img_one.webp
+            |-- img_three.webp
+            |-- img_two.webp
+        |-- present
+            |-- present_user.webp
+        |-- reviews
+            |-- img_one.webp
+            |-- img_three.webp
+            |-- img_two.webp
+|-- css
+    |-- base.css
+    |-- blocks
+        |-- circles.css
+        |-- cta.css
+        |-- footer.css
+        |-- header.css
+        |-- hero.css
+        |-- module.css
+        |-- present.css
+        |-- questions.css
+        |-- reviews.css
+        |-- stats.css
+        |-- tropics.css
+    |-- fonts.css
+    |-- index.css
+    |-- reset.css
+    |-- variables.css
+|-- index.html
+|-- js
+    |-- swiper.js
+|-- README.md

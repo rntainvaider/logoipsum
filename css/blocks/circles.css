@@ -1,0 +1,67 @@
+.circle__one {
+    position: absolute;
+    top: 920px;
+    z-index: -1;
+}
+
+.circle__one-wrapper {
+    background: linear-gradient(44deg, #cd10ff 0%, #9f06ff 100%);
+    width: 288px;
+    height: 288px;
+    border-radius: 100%;
+    position: relative;
+    left: -50px;
+}
+
+.circle__one-inner {
+    background: linear-gradient(36deg, #ffd7a9 0%, #ffae70 100%);
+    width: 86px;
+    height: 86px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.circle__two {
+    position: absolute;
+    top: 1072px;
+    z-index: -1;
+    right: -170px;
+}
+
+.circle__two-wrapper {
+    background: linear-gradient(36deg, #ffd7a9 0%, #ffae70 100%);
+    width: 288px;
+    height: 288px;
+    border-radius: 100%;
+    left: -50px;
+}
+
+.circle__three {
+    position: absolute;
+    top: 5080px;
+    z-index: -1;
+    right: -130px;
+    width: 288px;
+    height: 288px;
+}
+
+.circle__three-wrapper {
+    background: linear-gradient(44deg, #cd10ff 0%, #9f06ff 100%);
+    border-radius: 100%;
+    position: relative;
+    right: -50px;
+    width: 100%;
+    height: 100%;
+}
+
+.circle__three-inner {
+    background: linear-gradient(36deg, #ffd7a9 0%, #ffae70 100%);
+    width: 86px;
+    height: 86px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}

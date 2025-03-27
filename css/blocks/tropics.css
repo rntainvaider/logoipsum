@@ -72,13 +72,15 @@
 }
 
 .tropics__button {
-    padding: 23px 38px;
+    padding: 18px 27px;
+    display: flex;
+    align-items: center;
+    gap: 27px;
 }
 
-.tropics__button .part-left::after {
-    content: "";
+.vertical__line {
     display: inline-block;
     width: 1px;
     height: 30px;
-    background: white;
+    background: #8639b5;
 }

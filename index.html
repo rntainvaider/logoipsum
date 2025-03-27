@@ -9,6 +9,29 @@
 </head>
 
 <body>
+
+  <div class="circle__one">
+    <div class="circle__one-wrapper">
+      <div class="circle__one-inner">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="circle__two">
+    <div class="circle__two-wrapper">
+
+    </div>
+  </div>
+
+  <div class="circle__three">
+    <div class="circle__three-wrapper">
+      <div class="circle__three-inner">
+
+      </div>
+    </div>
+  </div>
+
   <header class="header">
     <div class="container">
       <div class="header__wrapper">
@@ -133,6 +156,9 @@
               <span class="part-left">
                 6 videos
               </span>
+              <span class="vertical__line">
+
+              </span>
               <span class="part-right">
                 4.5 hours
               </span>
@@ -155,6 +181,9 @@
             <button class="tropics__button button">
               <span class="part-left">
                 6 videos
+              </span>
+              <span class="vertical__line">
+
               </span>
               <span class="part-right">
                 4.5 hours
@@ -179,6 +208,9 @@
               <span class="part-left">
                 6 videos
               </span>
+              <span class="vertical__line">
+
+              </span>
               <span class="part-right">
                 4.5 hours
               </span>
@@ -201,6 +233,9 @@
             <button class="tropics__button button">
               <span class="part-left">
                 6 videos
+              </span>
+              <span class="vertical__line">
+
               </span>
               <span class="part-right">
                 4.5 hours
@@ -240,12 +275,15 @@
 
     <section class="reviews">
       <div class="container">
-        <h2 class="reviews__title section-title">
-          What my students say
-        </h2>
-        <p class="reviews__description section-description">
-          Create custom landing pages with Shades that convert more visitors than any website—no coding required.
-        </p>
+        <div class="reviews__inner">
+          <h2 class="reviews__title section-title">
+            What my students say
+          </h2>
+          <p class="reviews__description section-description">
+            Create custom landing pages with Shades that convert more visitors than any website—no coding required.
+          </p>
+        </div>
+
       </div>
     </section>
 
@@ -361,6 +399,13 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+      speed: 400,
+      spaceBetween: 100,
+    });
+  </script>
 </body>
 
 </html>
